@@ -1,10 +1,11 @@
 import "./App.css";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div>
-      <h1>Bens Hangman</h1>
-    </div>
+    <>
+      <Header />
+    </>
   );
 }
 
