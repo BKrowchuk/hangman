@@ -14,13 +14,13 @@ let selectedWord = words[Math.floor(Math.random() * words.length)];
 function App() {
   // const [playable, setPlayable] = useState(true);
   const [correctLetters, setCorrectLetters] = useState([]);
-  // const [wrongLetters, setWrongLetters] = useState([]);
+  const [wrongLetters, setWrongLetters] = useState([]);
   return (
     <>
       <Header />
       <div className="game-container">
         <Figure />
-        <WrongLetters />
+        <WrongLetters wrongLetters={wrongLetters} />
         <Word selectedWord={selectedWord} correctLetters={correctLetters} />
       </div>
       <Popup />
