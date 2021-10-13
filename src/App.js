@@ -1,11 +1,10 @@
-import "./App.css";
 import Header from "./components/Header";
 import Figure from "./components/Figure";
 import WrongLetters from "./components/WrongLetters";
 import Word from "./components/Word";
 import Popup from "./components/Popup";
 import Notification from "./components/Notification";
-import { showNotification as show, checkWin } from "./helpers/helpers";
+import { showNotification as show } from "./helpers/helpers";
 import { useState, useEffect } from "react";
 
 const words = ["application", "programming", "interface", "wizard"];

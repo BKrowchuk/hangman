@@ -9,7 +9,6 @@ const WrongLetters = ({ wrongLetters }) => {
             (prev, curr) => (prev === null ? [curr] : [prev, ", ", curr]),
             null
           )}
-        {console.log(wrongLetters)}
       </div>
     </div>
   );
