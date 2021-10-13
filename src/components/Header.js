@@ -1,8 +1,8 @@
 const Header = () => {
   return (
     <>
-      <h1>Hangman</h1>
-      <p>Find the hidden word - Enter a letter</p>
+      <h1 className="header">Hangman</h1>
+      <p className="header">Find the hidden word - Enter a letter</p>
     </>
   );
 };
