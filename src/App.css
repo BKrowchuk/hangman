@@ -12,14 +12,11 @@ body {
   height: 80vh;
   margin: 0;
   overflow: hidden;
+  text-align: center;
 }
 
 h1 {
   margin: 20px 0 0;
-}
-
-.header {
-  text-align: center;
 }
 
 .game-container {
