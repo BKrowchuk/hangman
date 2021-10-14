@@ -6,8 +6,9 @@ import Popup from "./components/Popup";
 import Notification from "./components/Notification";
 import { showNotification as show } from "./helpers/helpers";
 import { useState, useEffect } from "react";
+import { Database } from "./references/Database";
 
-const words = ["application", "programming", "interface", "wizard"];
+const words = Database;
 
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 
